@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:id="@+id/row_list"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/splash" >
+    
+    
+
+   <ImageView android:id="@+id/_contactimage"
+       android:layout_width="60dp"
+       android:layout_height="60dp"
+       android:src="@drawable/defaultcontactimage"/> 
+       <TextView android:id="@+id/_name"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="2dp"
+           android:layout_marginLeft="10dp"
+           android:textColor="#ffffff"
+           android:layout_width="wrap_content"
+           android:layout_toRightOf="@+id/_contactimage"
+           android:text="name"
+           android:textSize="20dp"
+         	android:gravity="center_horizontal"
+           android:layout_marginRight="20dp"
+           android:layout_alignParentTop="true" />
+       <TextView android:id="@+id/_status"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="2dp"
+           android:layout_width="wrap_content"
+           android:layout_alignParentRight="true"
+           android:layout_marginRight="1dp"
+           android:textColor="#ffffff"
+           android:textSize="15dp"
+           android:text="status"
+           android:layout_alignParentTop="true"/>
+       
+       <ImageView android:id="@+id/_msgimage"
+           android:layout_height="30dp"
+           android:layout_width="30dp"
+           android:layout_marginTop="2dp"
+           android:layout_toLeftOf="@+id/_status"
+           android:layout_marginRight="1dp"
+           android:layout_alignParentTop="true"
+           android:src="@drawable/msg"/>
+       <ImageView android:id="@+id/_msgtype"
+          android:layout_height="18dp"
+           android:layout_width="15dp"
+           android:src="@drawable/smsrecived"
+           android:layout_marginTop="7dp"
+           android:layout_alignParentTop="true"
+           android:layout_toLeftOf="@+id/_msgimage"/>
+       <TextView android:id="@+id/_date"
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:text="hh:mm am dd/mm"
+           android:layout_marginRight="2dp"
+           android:textColor="#ffffff"
+           android:layout_marginTop="10dp"
+           android:layout_alignParentRight="true"
+           android:textSize="15dp"
+           android:layout_below="@+id/_msgimage"/>
+       
+
+</RelativeLayout>

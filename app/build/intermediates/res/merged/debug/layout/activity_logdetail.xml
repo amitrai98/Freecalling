@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/splash"
+   >
+<ImageView android:id="@+id/_contactimage"
+    android:layout_height="60dp"
+    android:layout_width="60dp"
+    android:src="@drawable/defaultcontactimage"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"/>
+
+<LinearLayout android:id="@+id/_toplayer"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_below="@+id/_contactimage"
+    android:orientation="horizontal"
+    >
+    <Button android:id="@+id/_sendmessage"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight=".5"
+        android:text="send message"/>
+    <Button android:id="@+id/_call"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight=".5"
+        android:text="call"/>
+</LinearLayout>
+   <ListView android:id="@+id/_logdetaillist"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/_toplayer"
+       android:layout_width="match_parent"
+       android:divider="@null"
+       android:background="@android:color/transparent"
+       android:cacheColorHint="#0000"></ListView>
+   
+   <TextView android:id="@+id/_contactname"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:textSize="20dp"
+    android:layout_alignParentTop="true"
+    android:textColor="@android:color/white"
+    android:background="@android:color/transparent"
+    android:layout_toRightOf="@+id/_contactimage"
+    android:layout_above="@+id/_toplayer"
+    android:hint="contact name"/>
+
+</RelativeLayout>

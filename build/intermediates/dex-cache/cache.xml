@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/me/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/home/me/projects/Freecalling_studio/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0_2b51641c7d40ffa0a1bc351cc2f44a3ddf78fe57.jar" />
+    </item>
+
+</items>

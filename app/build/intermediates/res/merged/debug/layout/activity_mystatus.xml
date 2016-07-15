@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/splash"
+    >
+
+    <RelativeLayout android:id="@+id/_wraper"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+     >
+    <TextView
+        android:id="@+id/_myname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        	android:layout_marginTop="5dp"
+        	
+        	android:layout_alignParentLeft="true"
+        	android:layout_alignParentRight="true"
+         android:gravity="center"
+         android:textColor="@android:color/white"
+         android:textSize="20dp"
+        android:text="my name" />
+    
+     <TextView
+        android:id="@+id/_myno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+         android:textSize="20dp"
+        	android:layout_marginTop="5dp"
+        	android:layout_alignParentLeft="true"
+        	android:layout_alignParentRight="true"
+        android:layout_below="@+id/_myname"
+        android:gravity="center"
+        android:text="my no" />
+     
+      <TextView
+        android:id="@+id/_myip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/_myno"
+            android:textColor="@android:color/white"
+         android:textSize="20dp"
+       	android:layout_marginTop="5dp"
+       android:layout_alignParentLeft="true"
+        	android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:text="my ip" />
+      
+       <TextView
+        android:id="@+id/_deviceid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+         android:textSize="20dp"
+        android:layout_below="@+id/_myip"
+       	android:layout_marginTop="5dp"
+       android:layout_alignParentLeft="true"
+        	android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:text="my device id" />
+       
+          <TextView
+        android:id="@+id/_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/_deviceid"
+            android:textColor="@android:color/white"
+         android:textSize="20dp"
+       	android:layout_marginTop="5dp"
+       	android:layout_marginLeft="5dp"
+        android:gravity="center"
+        android:layout_alignParentLeft="true"
+        	android:layout_alignParentRight="true"
+        android:text="registration status" />
+        <TextView
+        android:id="@+id/_currentip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/_status"
+       	android:layout_marginTop="5dp"
+       	android:layout_marginLeft="5dp"
+       	    android:textColor="@android:color/white"
+         android:textSize="20dp"
+        android:gravity="center"
+        android:layout_alignParentLeft="true"
+        	android:layout_alignParentRight="true"
+        android:text="current ip " />
+        
+         <TextView
+        android:id="@+id/_wifiname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/_currentip"
+       	android:layout_marginTop="5dp"
+       	android:layout_marginLeft="5dp"
+       	    android:textColor="@android:color/white"
+         android:textSize="20dp"
+        android:gravity="center"
+        android:layout_alignParentLeft="true"
+        	android:layout_alignParentRight="true"
+        android:text="connected with " />
+        
+        
+     </RelativeLayout>  
+
+</RelativeLayout>

@@ -1,0 +1,254 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:background="#e5e3e3" >
+
+        <TextView
+            android:id="@+id/txtheader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/profile_header"
+            android:textColor="#fc9f2e"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <RelativeLayout
+            android:id="@+id/layoutparrent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/txtheader"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="#e5e3e3"
+            android:padding="10dp" >
+
+            <LinearLayout
+                android:id="@+id/layoutusername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:padding="2dp" >
+
+                <EditText
+                    android:id="@+id/edtusername"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:maxLength="120"
+                    android:layout_weight=".3"
+                    android:gravity="center"
+                    android:hint="@string/user_name"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/edtpass"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:maxLength="120"
+                    android:layout_weight=".3"
+                    android:gravity="center"
+                    android:hint="@string/pass"
+                    android:inputType="textPassword"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/edtcnfpass"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:maxLength="120"
+                    android:layout_weight=".4"
+                    android:gravity="center"
+                    android:hint="@string/conf_pass"
+                    android:inputType="textPassword"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layoutusername"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:padding="2dp" >
+
+                <EditText
+                    android:id="@+id/edtfirstname"
+                    android:layout_width="0dp"
+                    android:maxLength="120"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:gravity="center"
+                    android:hint="@string/first_name"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/edtlastname"
+                    android:layout_width="0dp"
+                    android:maxLength="120"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_weight=".5"
+                    android:gravity="center"
+                    android:hint="@string/last_name"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/layoutemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layoutname"
+                android:layout_centerHorizontal="true"
+                android:padding="2dp" >
+
+                <EditText
+                    android:id="@+id/edtemail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="@string/email"
+                    android:imeOptions="actionNext"
+                    android:maxLength="120"
+                    android:inputType="textEmailAddress"
+                    android:singleLine="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layoutdob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layoutemail"
+                android:layout_centerHorizontal="true"
+                android:padding="2dp" >
+
+                <EditText
+                    android:id="@+id/edtdob"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:hint="@string/dob"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutoperator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layoutdob"
+                android:orientation="horizontal"
+                android:padding="2dp" >
+
+                <ListView
+                    android:id="@+id/lstcntycode"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight=".5"
+                    android:clickable="false"
+                    android:gravity="center"
+                    android:imeOptions="actionNext" 
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/edtmobileno"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/mobile_no"
+                    android:imeOptions="actionDone"
+                    android:maxLength="10" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/layoutaddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layoutoperator"
+                android:layout_centerHorizontal="true"
+                android:padding="2dp" >
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layouttelecomecircle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layoutaddress"
+                android:layout_centerHorizontal="true"
+                android:padding="2dp" >
+            </RelativeLayout>
+
+            <RadioGroup
+                android:id="@+id/layoutgeder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layouttelecomecircle"
+                android:orientation="horizontal"
+                android:padding="2dp" >
+
+                <RadioButton
+                    android:id="@+id/radiomale"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:checked="true"
+                    android:text="@string/male" />
+
+                <RadioButton
+                    android:id="@+id/radiofemale"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_weight=".5"
+                    android:hint="@string/female" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:id="@+id/layoutbuttons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layoutgeder"
+                android:orientation="horizontal"
+                android:padding="2dp"
+                android:paddingTop="20dp" >
+
+                <Button
+                    android:id="@+id/btncancel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:ems="10"
+                    android:text="@string/cancel" />
+
+                <Button
+                    android:id="@+id/btnsave"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_weight=".5"
+                    android:text="@string/save" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</ScrollView>

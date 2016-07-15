@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/splash"
+    >
+   <LinearLayout android:id="@+id/_layer1"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/_contactimage">
+     
+        
+        <Button android:id="@+id/_call"
+        android:layout_height="40dp"
+        android:layout_width="0dp"
+        android:layout_weight=".5"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginRight="1dp"
+        android:background="@drawable/positivedesign"
+        android:text="Call"/>
+            
+        
+      
+         
+          <Button android:id="@+id/_sendmessage"
+          android:layout_height="40dp"
+        android:layout_width="0dp"
+        android:layout_weight=".5"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="2dp"
+        android:background="@drawable/sendmessagebackground"
+        android:text="Send Message"
+      
+        />
+    </LinearLayout>
+	<ImageView android:id="@+id/_contactimage"
+	    android:layout_height="100dp"
+	    android:layout_width="100dp"
+	    android:layout_alignParentLeft="true"
+	    android:layout_marginTop="1dp"
+	    android:src="@drawable/defaultcontactimage"
+	  android:layout_alignParentTop="true"
+	    android:layout_marginLeft="1dp"/>
+	<EditText android:id="@+id/_firstname"
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    android:singleLine="true"
+	   android:layout_marginTop="35dp"
+	    android:gravity="center_vertical"
+	   	android:layout_toRightOf="@+id/_contactimage"
+	    android:layout_alignParentTop="true"
+	   
+	 	android:hint="Name"
+	    />
+   
+    <EditText android:id="@+id/_contactno"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+         android:scrollHorizontally="true"
+          android:singleLine="true"
+         android:layout_marginLeft="1dp"
+	    android:layout_marginTop="1dp"
+         android:maxLines="1"
+        android:layout_below="@+id/_layer1"
+        android:hint="contact no"
+        android:inputType="phone"
+        android:maxLength="13"
+        />  
+        
+    <EditText android:id="@+id/_email"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+         android:scrollHorizontally="true"
+         android:maxLines="1"
+          android:layout_marginLeft="1dp"
+           android:singleLine="true"
+	    android:layout_marginTop="1dp"
+        android:layout_below="@+id/_contactno"
+        android:hint="email address"
+        android:inputType="textEmailAddress"/>
+    <EditText android:id="@+id/_ipaddress"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:maxLines="1"
+         android:layout_marginLeft="1dp"
+	    android:layout_marginTop="1dp"
+	     android:singleLine="true"
+        android:layout_below="@+id/_email"
+        android:scrollHorizontally="true"
+        android:hint="ip address xxx.xxx.xxx.xxx"
+        android:maxLength="15"
+        android:inputType="textUri"/>
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+       	android:layout_alignParentBottom="true"
+        
+        android:orientation="horizontal"
+        >
+        
+   
+    <Button android:id="@+id/_save"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight=".5"
+        android:text="Save"/>
+     <Button android:id="@+id/_cancel"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight=".5"
+        android:text="Cancel"/>
+      </LinearLayout>
+
+</RelativeLayout>

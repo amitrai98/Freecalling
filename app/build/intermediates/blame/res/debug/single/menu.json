@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/menu/smslist.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/menu/smslist.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/menu/notificationactivity.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/menu/notificationactivity.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/menu/createnotificationactivity.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/menu/createnotificationactivity.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/menu/logdetail.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/menu/logdetail.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/menu/newtask.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/menu/newtask.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/menu/blocklist.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/menu/blocklist.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/menu/messagesender.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/menu/messagesender.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/menu/dialer.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/menu/dialer.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/menu/loglist.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/menu/loglist.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/menu/call.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/menu/call.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/menu/viewactivity.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/menu/viewactivity.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/menu/someonecalling.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/menu/someonecalling.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/menu/applicationmenu.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/menu/applicationmenu.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/menu/mobileverification.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/menu/mobileverification.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/menu/grid_view.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/menu/grid_view.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/menu/jsonhandler.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/menu/jsonhandler.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/menu/tabhostactivity.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/menu/tabhostactivity.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/menu/notificationreciver.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/menu/notificationreciver.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/menu/audio_record.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/menu/audio_record.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/menu/add_new_contact.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/menu/add_new_contact.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/menu/staticactivity.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/menu/staticactivity.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/menu/sendsms.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/menu/sendsms.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/menu/messageserver.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/menu/messageserver.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/menu/contactlist.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/menu/contactlist.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/menu/calllist.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/menu/calllist.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/menu/server.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/menu/server.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/menu/locationfinder.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/menu/locationfinder.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/menu/audiorecord.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/menu/audiorecord.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/menu/mystatus.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/menu/mystatus.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/menu/registration.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/menu/registration.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/menu/listener.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/menu/listener.xml"
+    }
+]

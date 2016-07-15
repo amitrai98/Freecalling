@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:background="#878787"
+    android:orientation="vertical"
+     >
+    <LinearLayout android:id="@+id/_top"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            >
+           
+            <EditText android:id="@+id/_contactbox"
+              	 android:layout_height="wrap_content"
+                android:layout_weight="0.75"
+                android:layout_width="0dp"
+              	android:gravity="left"
+              	android:maxLength="10"
+              	android:inputType="number"
+              	android:maxLines="1"
+              	android:scrollHorizontally="true"
+              	android:hint="contactno"
+               />
+            <Button android:id="@+id/_contactbtn"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+           		android:layout_gravity="right"
+                android:text="contacts"
+                />
+        </LinearLayout>
+
+ 
+    <ListView android:id="@+id/_smslist"
+                android:layout_below="@+id/_top"
+                android:layout_above="@+id/_bottom"
+                android:layout_height="wrap_content"
+               android:divider="@null"
+               android:cacheColorHint="#0000"
+                android:layout_width="match_parent">
+                
+            </ListView>
+        <LinearLayout android:id="@+id/_bottom"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            >
+            
+           
+            <EditText android:id="@+id/_messagebox"
+              	 android:layout_height="75dp"
+                android:layout_weight="0.75"
+                android:layout_width="0dp"
+                android:background="@drawable/roundtextbox"
+              	android:gravity="left"
+              	android:padding="2dp"
+              	
+              	android:hint="type your message "
+               />
+            <Button android:id="@+id/_send"
+                android:layout_height="75dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="right"
+                android:text="send"
+                />
+        </LinearLayout>
+   
+
+</RelativeLayout>

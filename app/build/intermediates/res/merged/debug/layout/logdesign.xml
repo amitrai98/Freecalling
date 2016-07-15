@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical" >
+    
+    <ImageView android:id="@+id/_defaultcontactimage"
+        android:layout_height="60dp"
+        android:layout_width="60dp"
+        android:src="@drawable/defaultcontactimage"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        />
+    <TextView android:id="@+id/_contactname"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@+id/_defaultcontactimage"
+        android:layout_alignParentTop="true"
+        android:text="contact name"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        />
+    <ImageView android:id="@+id/_typeofcall"
+        android:layout_height="30dp"
+        android:layout_width="20dp"
+        android:layout_marginTop="3dp"
+        android:layout_below="@+id/_contactname"
+        android:layout_toRightOf="@+id/_defaultcontactimage"
+        android:src="@drawable/recivedcall"/>
+    
+    <TextView android:id="@+id/_contactno"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="1234567890"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+       
+        android:layout_marginTop="7dp"
+        android:layout_toRightOf="@+id/_typeofcall"
+        android:layout_below="@+id/_contactname"/>
+    
+    <ImageView android:id="@+id/_type"
+        android:layout_height="20dp"
+        android:layout_width="20dp"
+        android:src="@drawable/phoneicon"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"/>
+    <TextView android:id="@+id/_date"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="date"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/_type"/>
+
+</RelativeLayout>

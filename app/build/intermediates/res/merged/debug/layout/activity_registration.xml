@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    android:padding="20dp" >
+
+    <RelativeLayout
+        android:id="@+id/layoutcontainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        >
+
+        <RelativeLayout
+            android:id="@+id/layoutparrent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp" >
+
+            <RelativeLayout
+                android:id="@+id/layouthead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/headingone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/headingone"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/headingtwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/headingone"
+                    android:gravity="center"
+                    android:text="@string/headingtwo"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layoutmobileno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layouthead"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp" >
+
+                <EditText
+                    android:id="@+id/edtcontrycode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:text="@string/countrycode"
+                    android:imeOptions="actionNext"
+                    android:inputType="none"
+                    android:maxLength="3" />
+
+                <EditText
+                    android:id="@+id/edtmobileno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/edtcontrycode"
+                    android:gravity="center"
+                    android:hint="@string/headingtwo"
+                    android:imeOptions="actionNext"
+                    android:inputType="phone"
+                    android:maxLength="10" />
+
+                <TextView
+                    android:id="@+id/txtsmscharge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edtmobileno"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/edtcontrycode"
+                    android:text="@string/messagewarning"
+                    android:textSize="5dp" />
+                
+                 <EditText
+                    android:id="@+id/edtpassword"
+                    android:layout_below="@+id/txtsmscharge"
+                    android:layout_toRightOf="@+id/edtcontrycode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword"
+                    android:hint="@string/password"
+                    android:maxLength="15" 
+                   />
+            </RelativeLayout>
+            
+
+            <RelativeLayout
+                android:id="@+id/layouttermandcondition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layoutmobileno"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp" >
+
+                <TextView
+                    android:id="@+id/txtterm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/termsconditions" />
+
+                <CheckBox
+                    android:id="@+id/chkaccept"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtterm"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/accept" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layoutnotice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layoutparrent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" >
+
+            <TextView
+                android:id="@+id/txtnotice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/simwarning" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layoutnotice"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btncancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="@string/cancel" />
+
+            <Button
+                android:id="@+id/btnsave"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="@string/save" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

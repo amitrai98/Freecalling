@@ -1,0 +1,186 @@
+[
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/sendmessagebackground.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/sendmessagebackground.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/calling.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/calling.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/aboutus.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/aboutus.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/togolepositive.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/togolepositive.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/mic1.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/mic1.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/positivedesign.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/positivedesign.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/dialer.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/dialer.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/quicklog.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/quicklog.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/roundtextbox.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/roundtextbox.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/dialedcall.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/dialedcall.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/contacts.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/contacts.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/mic2.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/mic2.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/defaultcontactimage.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/defaultcontactimage.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/recivedmessagedesing.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/recivedmessagedesing.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/roundbutton.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/roundbutton.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/messagebackground.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/messagebackground.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/phoneicon.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/phoneicon.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/sendmessagedesign.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/sendmessagedesign.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/smsrecived.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/smsrecived.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/comment.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/comment.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/missed.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/missed.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/location.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/location.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/msgbackground.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/msgbackground.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/calldeny.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/calldeny.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/mic.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/mic.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/sms.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/sms.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/exit.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/exit.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/act3.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/act3.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/blockcaller.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/blockcaller.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/msg.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/msg.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/phonerecive.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/phonerecive.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/home.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/home.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/smsnotificaion.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/smsnotificaion.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/negative.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/negative.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/help.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/help.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/missedcall.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/missedcall.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/smssent.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/smssent.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/smsnotification.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/smsnotification.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/log.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/log.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/status.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/status.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/recivedcall.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/recivedcall.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/settings.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/settings.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/splash.xml",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/splash.xml"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/chat.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/chat.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/act5.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/act5.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/act2.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-hdpi/act2.png"
+    }
+]

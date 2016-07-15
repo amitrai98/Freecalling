@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/mic.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-xxhdpi/mic.png"
+    },
+    {
+        "merged": "/home/me/projects/Freecalling_studio/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_launcher.png",
+        "source": "/home/me/projects/Freecalling_studio/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    }
+]

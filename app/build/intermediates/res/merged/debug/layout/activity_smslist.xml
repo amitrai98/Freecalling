@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:background="@drawable/splash"
+    android:layout_height="wrap_content">
+    
+    <TextView android:id="@+id/_newmessage"
+        android:layout_alignParentTop="true"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:textColor="#00aaff"
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:text="new message"
+        android:textAlignment="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:layout_centerInParent="true"
+        android:gravity="center" />
+        
+	 <ListView android:id="@+id/_msglist"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/_newmessage"
+        android:background="@android:color/transparent"
+        android:cacheColorHint="@null"
+        android:clickable="true"
+        android:layout_width="fill_parent" >
+        
+    </ListView>
+
+</RelativeLayout>

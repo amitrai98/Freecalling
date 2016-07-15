@@ -1,0 +1,150 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/splash"
+    android:layout_height="match_parent"
+  >
+<RelativeLayout android:id="@+id/_secondparrent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:layout_width="match_parent">
+      
+    <ImageView android:id="@+id/_icon"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:padding="5dp"
+        android:clickable="true"
+        android:src="@drawable/mic1"/>
+    
+      
+    
+        <LinearLayout android:id="@+id/_layer1"
+            android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/_icon">
+     
+        
+     
+     <TextView android:id="@+id/_duration"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight=".5"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text="Duration"
+       android:gravity="center"
+       android:textColor="@android:color/white"
+        
+   
+        android:layout_marginLeft="5dp"
+        />
+        
+      
+       
+     <Chronometer android:id="@+id/_time"
+         
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight=".5"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        android:gravity="left"
+        android:text="time"
+     android:textColor="@android:color/white"
+        android:layout_marginLeft="5dp"
+        />
+      
+        
+    </LinearLayout>
+    
+            <LinearLayout android:id="@+id/_layer2"
+        android:layout_height="wrap_content"
+          android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/_layer1">
+     
+        
+     
+     <TextView android:id="@+id/_filename"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight=".5"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="File Name"
+       android:gravity="center"
+       android:textColor="@android:color/white"
+        android:layout_marginLeft="5dp"
+        />
+        
+      
+       
+     <TextView android:id="@+id/_nameoffile"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight=".5"
+        android:gravity="left"
+        android:text="name of file"
+     android:textColor="@android:color/white"
+        android:layout_marginLeft="5dp"
+        />
+      
+       
+    </LinearLayout>
+    
+            <TextView android:id="@+id/_hintmessage"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentLeft="true"
+        android:textSize="15dp"
+        android:textStyle="normal"
+        android:text="Tap Icon To Record Message"
+       android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/_layer2"
+        android:layout_above="@+id/_bottom"
+        android:textColor="@android:color/white"
+        />
+    
+    <LinearLayout android:id="@+id/_bottom"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true">
+     
+        
+        <Button android:id="@+id/_play"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight=".5"
+        android:background="@drawable/dialer"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Play"/>
+            
+        
+      
+         
+          <Button android:id="@+id/_send"
+        android:layout_height="40dp"
+        android:layout_width="0dp"
+        android:layout_weight=".5"
+         android:background="@drawable/negative"
+        android:textColor="@android:color/white"
+        android:textSize="20dip"
+        android:textStyle="bold"
+        android:text="End Call"
+      
+        />
+    </LinearLayout>
+    
+   </RelativeLayout>
+</RelativeLayout>

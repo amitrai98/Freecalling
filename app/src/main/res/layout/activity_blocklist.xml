@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   >
+
+    <LinearLayout  
+        android:id="@+id/_toplayer"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+          >
+          <Button android:id="@+id/_sendmessge"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:text="+"
+        android:layout_weight=".2"/>
+          
+          <EditText android:id="@+id/_call"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:text="call"
+        android:layout_weight=".8"/>
+   </LinearLayout>
+
+   <ListView
+       android:id="@+id/_blocklist"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/_toplayer"
+       android:cacheColorHint="#0000" >
+</ListView>
+   
+
+</RelativeLayout>

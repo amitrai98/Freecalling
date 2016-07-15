@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+     >
+   <ImageView
+    android:id="@+id/_accept"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_above="@+id/_bottom"
+    android:layout_marginBottom="20dp"
+    android:layout_marginLeft="40dp"
+    android:src="@drawable/calling" />
+<LinearLayout android:id="@+id/_bottom"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="100dp"
+    android:orientation="horizontal">
+    <RelativeLayout android:id="@+id/_bottomrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        
+        <ImageView
+    android:id="@+id/_accept"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_marginLeft="20dp"
+    android:src="@drawable/calling" />
+
+<ImageView
+    android:id="@+id/_calling"
+    android:layout_width="wrap_content"
+   android:layout_alignParentRight="true"
+   android:layout_marginRight="20dp"
+    android:layout_height="wrap_content"
+    android:src="@drawable/calling" />
+    </RelativeLayout>
+    
+    
+    
+</LinearLayout>
+<!-- <ImageView
+    android:id="@+id/_deny"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_marginBottom="129dp"
+    android:src="@drawable/act5" />
+
+<ImageView
+    android:id="@+id/_block"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_toLeftOf="@+id/_accept"
+    android:src="@drawable/act3" />
+<ImageView
+    android:id="@+id/_deny"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_marginBottom="129dp"
+    android:src="@drawable/act5" />
+
+<ImageView
+    android:id="@+id/_block"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_toLeftOf="@+id/_accept"
+    android:src="@drawable/act3" />
+
+
+<ImageView
+    android:id="@+id/_accept"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_alignTop="@+id/_deny"
+    android:src="@drawable/act2" />
+
+<ImageView
+    android:id="@+id/_calling"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:baselineAlignBottom="true"
+    android:layout_alignRight="@+id/_block"
+    android:layout_alignTop="@+id/_deny"
+    android:src="@drawable/calling" /> -->
+
+</RelativeLayout>
